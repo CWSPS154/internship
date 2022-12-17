@@ -1,0 +1,87 @@
+JavaScript Arithmetic Operators
+
+	Arithmetic operators are used to perform arithmetic on numbers
+
+Operator	Description
++		Addition
+-		Subtraction
+*		Multiplication
+**		Exponentiation (ES2016)
+/		Division
+%		Modulus (Division Remainder)
+++		Increment
+--		Decrement
+
+Example
+
+	var x = 100 + 50;		(Values)
+	var x = a + b;			(variables)
+	var x = (100 + 50) * a;		(Expressions)
+
+JavaScript Assignment Operators
+
+	Assignment operators assign values to JavaScript variables.
+
+Operator	Example		Same As
+=		x = y		x = y
++=		x += y		x = x + y
+-=		x -= y		x = x - y
+*=		x *= y		x = x * y
+/=		x /= y		x = x / y
+%=		x %= y		x = x % y
+
+Example
+	var x = 10;
+	x += 5;
+
+Comparison Operators
+
+	Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
+Operator	Description		
+==		equal to	
+===		equal value and equal type	
+!=		not equal	
+!==		not equal value or not equal type	
+>		greater than		
+<		less than		
+>=		greater than or equal to		
+<=		less than or equal to	
+
+Logical Operators
+
+	Logical operators are used to determine the logic between variables or values.
+
+Operator	Description	
+&&		and	
+||		or	
+!		not	
+
+Conditional (Ternary) Operator
+
+	JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+Syntax
+
+	variablename = (condition) ? value1:value2
+
+Example
+
+	var voteable = (age < 18) ? "Too young":"Old enough";
+
+JavaScript Loops
+
+	Loops are handy, if you want to run the same code over and over again, each time with a different value.
+
+Different Kinds of Loops
+
+JavaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+ 
+
+

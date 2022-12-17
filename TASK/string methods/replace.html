@@ -1,0 +1,18 @@
+<html>
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var text=document.getElementById("text").value
+  var txt = str.replace("myhouse",text);
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<body>
+
+<p id="demo">Please visit myhouse!</p>
+<input type="text" id="text">
+<input type="button" value="Click" onclick="myFunction();">
+
+</body>
+</html>
+

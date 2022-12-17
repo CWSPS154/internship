@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Registation Form</title>
+</head>
+<body style="background-color: grey;">
+<h1 style="font-family: times new roman;text-align: center;"><u>Rgistration</u></h1>
+	<form>
+	<table align="center" cellpadding="10">
+		<tr><th>Name</th><td><input type="text" name="name"></td></tr>
+		<tr><th>Gender</th><td><input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female
+			<input type="radio" name="gender" value="other">Other</td></tr>
+		<tr><th>DOB</th><td><input type="date" name="dob"></td></tr>
+		<tr><th>Address</th><td><textarea name="address"></textarea></td></tr>
+		<tr><th>PIN</th><td><input type="text" name="pin"></td></tr>
+		<tr><th>Phone</th><td><input type="text" name="number"></td></tr>
+		<tr><th>Email</th><td><input type="email" name="email"></td></tr>
+		<tr><th>Type</th><td><select name="type"><optgroup label="select type">
+			<option value="Student">Student</option>
+			<option value="Teacher">Teacher</option>
+			<option value="Guest">Guest</option>
+		</optgroup></select></td></tr>
+		<tr><th>Photo</th><td><input type="file" name="img"></td></tr>
+		<tr><td colspan="2" align="center"><input type="submit" name="submit" value="Register"></td></tr>
+	</table>	
+	</form>
+</body>
+</html>

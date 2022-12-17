@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<script type="text/javascript" language="javascript">
+	function fact()
+	{
+		var number=document.getElementById("number").value;
+		var factorial=1;
+		for(i=1;i<=number;i++)
+		{
+		factorial+=factorial*(number-i);
+		}
+	alert(factorial);
+	}
+</script>
+<body>
+<form>
+	<input type="text" id="number">
+	<input type="button" onclick="fact();" value="Factorial">
+</form>
+</body>
+</html>

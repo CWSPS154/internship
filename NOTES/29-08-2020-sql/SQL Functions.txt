@@ -1,0 +1,30 @@
+SQL Functions
+-------------
+SQL has many built-in functions for performing calculations on data.
+
+	1.SQL Aggregate Functions
+	2.SQL Scalar functions
+
+1.SQL Aggregate Functions
+-------------------------
+SQL aggregate functions return a single value, calculated from values in a column.
+
+	1.AVG() - Returns the average value
+	2.COUNT() - Returns the number of rows
+	3.FIRST() - Returns the first value
+	4.LAST() - Returns the last value
+	5.MAX() - Returns the largest value
+	6.MIN() - Returns the smallest value
+	7.SUM() - Returns the sum
+
+2.SQL Scalar functions
+-----------------------
+SQL scalar functions return a single value, based on the input value.
+
+	1.UCASE() - Converts a field to upper case
+	2.LCASE() - Converts a field to lower case
+	3.MID() - Extract characters from a text field
+	4.LEN() - Returns the length of a text field
+	5.ROUND() - Rounds a numeric field to the number of decimals specified
+	6.NOW() - Returns the current system date and time
+	7.FORMAT() - Formats how a field is to be displayed

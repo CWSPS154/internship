@@ -1,0 +1,16 @@
+String Functions
+----------------
+
+1.strcmp()	Compares two strings (case-sensitive)
+
+2.trim()	Removes whitespace or other characters from both sides of a string
+
+3.str_repeat()	Repeats a string a specified number of time
+
+4.strstr()	Finds the first occurrence of a string inside another string (case-sensitive)
+
+5.substr()	Returns a part of a string
+
+6.explode()	Breaks a string into an array
+
+7.implode()	Returns a string from the elements of an array

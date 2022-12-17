@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<script>
+
+	function add()
+	 {
+	 		var x = document.getElementById('ipt').value;
+			var y = document.getElementById('ipt2').value;
+			var res= parseInt(x) + parseInt(y);
+			alert(res);
+	 }
+	 function sub()
+	 {
+	 		var x = document.getElementById('ipt').value;
+			var y = document.getElementById('ipt2').value;
+			var res= x - y;
+			alert(res);
+	 }
+	 function mul()
+	 {
+	 		var x = document.getElementById('ipt').value;
+			var y = document.getElementById('ipt2').value;
+			var res= x * y;
+			alert(res);
+	 }
+	 function div()
+	 {
+	 		var x = document.getElementById('ipt').value;
+			var y = document.getElementById('ipt2').value;
+			var res= x / y;
+			alert(res);
+	 }
+	 function mod()
+	 {
+	 		var x = document.getElementById('ipt').value;
+			var y = document.getElementById('ipt2').value;
+			var res= x % y;
+			alert(res);
+	 }
+
+</script>
+<body>
+<form>
+	<input type="number" id="ipt"><br>
+	<input type="number" id="ipt2"><br><br>
+	<input type="button"  onclick="add();" value="Add">
+	<input type="button"  onclick="sub();" value="Substract"><br>
+	<input type="button"  onclick="mul();" value="Multiply">
+	<input type="button"  onclick="div();" value="Divide"><br>
+	<input type="button"  onclick="mod();" value="Modulus">
+
+</form>
+</body>
+</html>

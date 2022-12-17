@@ -1,0 +1,17 @@
+<h1 style="text-align:center">
+<body style="background-color:yellow">
+<p style="font-family:Purisa;color:red">
+<p style="font-size:40">
+
+<table>
+<tr><td></td></tr>
+</table>
+
+
+s.no,first name,last name,gender,dob,phone,email
+
+name
+gender
+adres
+phone
+email

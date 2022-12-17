@@ -1,0 +1,17 @@
+<html>
+<script>
+	function locate()
+	{
+var str = "Please locate where 'locate' occurs!"
+var sea = document.getElementById("text").value;
+var pos = str.indexOf(sea);
+alert(pos);
+	}
+</script>
+<body>
+	<p>Please locate where 'locate' occurs!</p><br>
+	<p>Search a string in this sentance</p>
+	<input type="text" id="text">
+	<input type="button" value="Search" onclick="locate();">
+</body>
+</html>

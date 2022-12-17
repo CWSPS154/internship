@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Armstrong</title>
+</head>
+<script type="text/javascript" language="javascript">
+	function palindrome() {
+		var str=document.getElementById('string').value;
+		var text2 = str.toUpperCase();
+   		var splitString = text2.split("");
+   	 	var reverseArray = splitString.reverse(); 
+   	 	var joinArray = reverseArray.join(""); 
+ 	 	var str2 = joinArray;
+ 		var n = text2.localeCompare(str2);
+  if(n==0)
+  {
+  	alert('The given string is Palindrome');
+  }
+  else
+  {
+  	alert('The given string is not Palindrome');
+  }
+	}
+</script>
+<body><p>Enter a Number</p>
+	<input type="text" id="string">
+	<input type="button" value="Palindrome" onclick="palindrome();"/>
+</body>
+</html>

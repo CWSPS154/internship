@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Checkout Page</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+  <h1>CHECKOUT</h1>
+</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h4>Billing Address</h4>
+				<form>
+					<div class="row">
+						<div class="col-sm-6">
+							<label class="form-label" for="firstname">First Name</label>
+							<input type="text" name="firstname" class="form-control" id="firstname" placeholder="firstname" required="required">
+						</div>
+						<div class="col-sm-6">
+							<label class="form-label" for="lastname">Last Name</label>
+							<input type="text" name="lastname" class="form-control" id="lastname" placeholder="lastname" required="required">
+						</div>
+						<div class="col-sm-12">
+							<label class="form-label" for="username">Username</label>
+							<div class="input-group">
+								<span class="input-group-addon">@</span>
+								<input type="text" name="username" class="form-control" id="username" placeholder="username" required="required">
+							</div>
+  						</div>
+  						<div class="col-sm-12">
+  							<label class="form-label" for="email">Email</label>
+  							<span class="text-muted">(Optional)</span>
+  							<input type="email" name="email" id="email" class="form-control" placeholder="email">
+  						</div>
+  						<div class="col-sm-12">
+  							<label class="form-label" for="adrs1">Address 1</label>
+  							<input type="text" name="adrs1" id="adrs1" class="form-control" placeholder="1234 Main st" required="required">
+  						</div>
+  						<div class="col-sm-12">
+  							<label class="form-label" for="adrs2">Address 2</label>
+  							<input type="text" name="adrs2" id="adrs2" class="form-control" placeholder="Appartment or suite">
+  						</div>
+  						<div class="col-sm-4">
+  							<label class="form-label" for="country">Country</label>
+  							<select class="form-control" name="country" required="required">
+  								<option>Choose your country</option>
+  								<option>India</option>
+  								<option>United State</option>
+  							</select>
+  						</div>
+  						<div class="col-sm-4">
+  							<label class="form-label" for="state">State</label>
+  							<select class="form-control" name="state" required="required">
+  								<option>Choose your state</option>
+  								<option>Kerala</option>
+  								<option>California</option>
+  							</select>
+  						</div>
+  						<div class="col-sm-4">
+  							<label class="form-label" for="pin">PIN</label>
+  							<input type="number" name="pin" id="pin" class="form-control" placeholder="PIN" required="required">
+  						</div>
+					</div>
+					<hr>
+					<div class="form-check">
+						<input type="checkbox" name="checkbox1" id="checkbox1" class="form-check-input" required="required">
+						<label class="form-check-lable">Shipping address is the same as my billing address</label>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" name="checkbox2" id="checkbox2" class="form-check-input" required="required">
+						<label class="form-check-lable">Save this information for next time</label>
+					</div>
+					<hr>
+					<h4>Payment</h4>
+					<div class="form-check">
+						<input type="radio" name="paymethod" id="paymethod" class="form-check-input" required="required">
+						<label class="form-check-lable">Credit Card</label>
+					</div>
+					<div class="form-check">
+						<input type="radio" name="paymethod" id="paymethod" class="form-check-input" required="required">
+						<label class="form-check-lable">Debit Card</label>
+					</div>
+					<div class="form-check">
+						<input type="radio" name="paymethod" id="paymethod" class="form-check-input" required="required">
+						<label class="form-check-lable">PayPal</label>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<label class="form-label" for="cardname">Name of the card</label>
+							<input type="text" name="cardname" class="form-control" id="cardname" placeholder="Card Name" required="required">
+						</div>
+						<div class="col-sm-6">
+							<label class="form-label" for="cardnumber">Card Number</label>
+							<input type="text" name="cardnumber" class="form-control" id="cardnumber" placeholder="Card Number" required="required">
+						</div>
+						<div class="col-sm-3">
+							<label class="form-label" for="exp">Expiration</label>
+							<input type="text" name="exp" class="form-control" id="exp" placeholder="Expiration" required="required">
+						</div>
+						<div class="col-sm-3">
+							<label class="form-label" for="cvv">CVV</label>
+							<input type="text" name="cvv" class="form-control" id="cvv" placeholder="CVV" required="required">
+						</div>
+					</div>
+					<hr>
+					<button type="submit" class="btn btn-primary btn-block">Continue to checkout</button><br>
+				</form>
+			</div>
+			<div class="col-sm-4">
+				<h4>Your Cart
+					<span class="badge">3</span>
+				</h4>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<div>
+							<h4>Product Name</h4>
+							<span class="text-muted">Brief Description</span>
+							<span class="text-muted">Rs 500</span>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div>
+							<h4>Second Product</h4>
+							<span class="text-muted">Brief Description</span>
+							<span class="text-muted align-right">Rs 500</span>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div>
+							<h4>Third item</h4>
+							<span class="text-muted">Brief Description</span>
+							<span class="text-muted">Rs 500</span>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="text-success">
+							<h4>Promo Code</h4>
+							<span class="text-muted">EXAMPLECODE</span>
+							<span class="text-muted">- Rs 500</span>
+						</div>
+					</li>
+					<li class="list-group-item">
+              			<span>Total (USD)</span>
+              			<strong>$20</strong>
+            		</li>
+				</ul>
+				<form">
+          		  <div class="input-group">
+             		 <input type="text" class="form-control" placeholder="Promo code" required="required">
+             		 	<div class="input-group-addon">
+             		  	 <button type="submit">Redeem</button>
+              			</div>
+            		</div>
+          		</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

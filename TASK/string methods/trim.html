@@ -1,0 +1,22 @@
+<html>
+<script>
+	function trime()
+	{
+var tx = document.getElementById("text").value;
+var ln=tx.length;
+document.getElementById("demo").innerHTML=ln;
+var txt=tx.trim();
+document.getElementById("tr").innerHTML=txt;
+var ln2=txt.length;
+document.getElementById("lnt").innerHTML=ln2;
+
+	}
+</script>
+<body>
+	<input type="text" id="text">
+	<input type="button" value="Trim" onclick="trime();">
+	<p id="demo"></p>
+	<p id="tr"></p>
+	<p id="lnt"></p>
+	</body>
+</html>

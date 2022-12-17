@@ -1,0 +1,79 @@
+PHP Global Variables - Superglobals
+-----------------------------------
+Some predefined variables in PHP are "superglobals", 
+which means that they are always accessible,
+regardless of scope - and you can access them from any function, 
+class or file without having to do anything special.
+
+The PHP superglobal variables are:
+
+$GLOBALS
+$_SERVER
+$_REQUEST
+$_POST
+$_GET
+$_FILES
+$_ENV
+$_COOKIE
+$_SESSION
+
+PHP $GLOBALS
+------------
+$GLOBALS is a PHP super global variable which is used to access global variables from anywhere in the PHP script (also from within functions or methods).
+
+PHP stores all global variables in an array called $GLOBALS[index]. 
+The index holds the name of the variable.
+
+PHP $_SERVER
+------------
+$_SERVER is a PHP super global variable which holds information about headers, paths, and script locations.
+
+PHP $_REQUEST
+-------------
+PHP $_REQUEST is a PHP super global variable which is used to collect data after submitting an HTML form.
+
+PHP $_POST
+----------
+PHP $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post". 
+$_POST is also widely used to pass variables.
+
+PHP $_GET
+---------
+PHP $_GET is a PHP super global variable which is used to collect form data after submitting an HTML form with method="get".
+$_GET can also collect data sent in the URL.
+
+
+PHP $_FILES
+-----------
+This SuperGlobal Variable holds the information of uploaded files via HTTP Post method.
+
+PHP $_SESSION
+-------------
+This SuperGlobal Variable is used to Set and Retrieve Session Value which is stored on Server.
+
+PHP $_ENV
+---------
+It is a superglobal that contains environment variables. 
+Environment variables are provided by the shell under which PHP is running, 
+so they may vary according to different shells.
+
+PHP $_COOKIECookie is a small file that stored on the client computer. A cookie is used to identify a user.
+
+Syntax
+
+setcookie(name, value, expire, path, domain, secure, httponly);
+
+Example
+
+setcookie("user","ram",time()+60*60*24);// create cookie
+
+echo $_COOKIE['user'];//access cookie
+
+setcookie("user","ram",time()-60*60*24);//destroy cookie
+
+Output
+
+ram
+------------
+
+

@@ -1,0 +1,60 @@
+html -Hypertext markup language
+use for design webpage-one of the design language
+css-Cascading Style Sheets
+html is a static language
+for display document
+IDE -Integrated Development Environment 
+code tag-thin displaying
+subsrcipt-<sub></sub>
+superscript-<sup></sup>
+marquee tag
+p tag
+h1-h6 tag
+hr tag
+img tag
+a tag
+
+LIST TAGS
+1 Ordered list
+<ol><li></li></ol>
+
+property 
+
+type
+
+a,A=Alphabet
+I=Roman letter
+
+2 Unordered List
+<ul><li></li></ul>
+
+property
+
+type
+
+circlr
+square
+disc
+
+3 Discription List
+
+
+Task
+
+clg name ,Cpl letter, bold, cntr ,clr
+
+clg add itlic,clr,p
+
+marque,clr
+
+home link,about,service
+
+clg image
+
+features
+
+use ordered unorderd list
+
+bg clr
+
+

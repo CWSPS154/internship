@@ -1,0 +1,72 @@
+PHP Conditional Statements
+--------------------------
+
+In PHP we have the following conditional statements:
+
+	1.if statement - executes some code if one condition is true
+	2.if...else statement - executes some code if a condition is true and another code if that condition is false
+	3.if...elseif...else statement - executes different codes for more than two conditions
+	4.switch statement - selects one of many blocks of code to be executed
+
+
+PHP - The if Statement
+----------------------
+
+The if statement executes some code if one condition is true.
+
+Syntax
+if (condition) {
+  code to be executed if condition is true;
+}
+
+
+PHP - The if...else Statement
+-----------------------------
+
+The if...else statement executes some code if a condition is true and another code if that condition is false.
+
+Syntax
+if (condition) {
+  code to be executed if condition is true;
+} else {
+  code to be executed if condition is false;
+}
+
+
+PHP - The if...elseif...else Statement
+--------------------------------------
+
+The if...elseif...else statement executes different codes for more than two conditions.
+
+Syntax
+if (condition) {
+  code to be executed if this condition is true;
+} elseif (condition) {
+  code to be executed if first condition is false and this condition is true;
+} else {
+  code to be executed if all conditions are false;
+}
+
+
+PHP - The switch Statement
+--------------------------
+
+The switch statement is used to perform different actions based on different conditions.
+
+Use the switch statement to select one of many blocks of code to be executed.
+
+Syntax
+switch (n) {
+  case label1:
+    code to be executed if n=label1;
+    break;
+  case label2:
+    code to be executed if n=label2;
+    break;
+  case label3:
+    code to be executed if n=label3;
+    break;
+    ...
+  default:
+    code to be executed if n is different from all labels;
+}

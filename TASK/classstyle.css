@@ -1,0 +1,25 @@
+#top
+{
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+.intro
+{
+	text-align: center;
+	border: 10px solid black;
+}
+#top2
+{
+	background-color:grey;
+}
+#top2 h1
+{
+	text-align:center;
+	color:yellow;
+}
+#top2 p
+{
+	text-align:center;
+	border:5px solid red;
+}

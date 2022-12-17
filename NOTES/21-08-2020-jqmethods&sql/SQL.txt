@@ -1,0 +1,35 @@
+Types Of Sql 
+-------------
+There are five types of SQL commands: DDL, DML, DCL, TCL, and DQL.
+
+1.Data Definition Language(DDL)
+-------------------------------
+
+DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+
+All the command of DDL are auto-committed that means it permanently save all the changes in the database.
+	a.CREATE-It is used to create a new table in the database.
+	b.ALTER	-It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
+	c.DROP -It is used to delete both the structure and record stored in the table.
+	d.TRUNCATE -It is used to delete all the rows from the table and free the space containing the table.
+
+2. Data Manipulation Language(DML)
+----------------------------------	
+	a. INSERT - It is used to insert data into the row of a table.
+	b. UPDATE - It is used to update or modify the value of a column in the table.
+	c. DELETE - It is used to remove one or more row from a table.
+	
+3. Data Control Language(DCL)
+------------------------------
+	a. Grant -It is used to give user access privileges to a database.
+	b. Revoke - It is used to take back permissions from the user.
+	
+4. Transaction Control Language(TCL)
+------------------------------------
+	a. Commit - It is used to save all the transactions to the database.
+	b. Rollback - It is used to undo transactions that have not already been saved to the database.
+	c. SAVEPOINT - It is used to roll the transaction back to a certain point without rolling back the entire transaction.
+
+5. Data Query Language(DQL)
+---------------------------
+	a. SELECT - This is the same as the projection operation of relational algebra. It is used to select the attribute based on the condition described by WHERE clause.
